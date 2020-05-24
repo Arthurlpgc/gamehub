@@ -53,7 +53,7 @@ function Account({accType, link, user}) {
     if(accountTypes[accType] === undefined) {
         return <span>Tipo nao encontrado: {accType}</span>
     }
-    return <a href={link} target="blank"><div style={componentStyle}>
+    return <a href={link} target="_blank" rel="noopener noreferrer"><div style={componentStyle}>
         <div>
             <img style={iconStyle} src={accountTypes[accType].icon}/>
         </div>
