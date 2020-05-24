@@ -1,5 +1,5 @@
 const account = {
-    age: "22",
+    age: "23",
     accounts: [
         {accType: "TWITCH", user: "Arthurlpgc", link: 'http://twitch.tv/arthurlpgc'},
         {accType: "STEAM", user: "Llamaphone", link: 'http://steamcommunity.com/id/arthurlpgc'},

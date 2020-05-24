@@ -51,7 +51,7 @@ const accountStyle = {
 
 function Account({accType, link, user}) {
     if(accountTypes[accType] === undefined) {
-        return <span>Tipo nao encontrado: {accType}</span>
+        return <span>Not found: {accType}</span>
     }
     return <a href={link} target="_blank" rel="noopener noreferrer"><div style={componentStyle}>
         <div>
